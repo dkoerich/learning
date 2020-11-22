@@ -14,9 +14,11 @@ public class MaximumFinder {
 
         // System.out.printf("Maximum is %f\n", result);
         System.out.println("Maximum is " + result);
+
+        input.close();
     }
 
-    public double maximum(double x, double y, double z) {
+    private double maximum(double x, double y, double z) {
         /*
         double maximumValue = x;
         if (y > maximumValue) {

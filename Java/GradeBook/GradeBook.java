@@ -36,6 +36,8 @@ public class GradeBook {
 
             incrementLetterGradeCount(grade);
         }
+
+        input.close();
     }
 
     private void incrementLetterGradeCount(int grade) {
